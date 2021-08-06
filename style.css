@@ -1,0 +1,441 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: poppins;
+}
+
+a {
+    display: inline-block;
+}
+
+p {
+}
+
+/* header features */
+header {
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-color: white;
+    width: 100%;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container .logo {
+    width: 100px;
+}
+
+header .container nav a {
+    color: #1e5d8a;
+    text-decoration: none;
+    margin: 0 50px;
+}
+
+header .container .hamb {
+    display: none;
+}
+
+/* boton's features */
+
+.button.orange-button {
+    background-color: #fe993d;
+    color: #1e5d8a;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid #fe993d;
+    text-decoration: none;
+}
+
+.section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.container.fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.perfect-square {
+    width: 100%;
+    padding-bottom: 100%;
+    position: relative;
+}
+
+.perfect-square img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.column {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.column-33 {
+    width: 33.33%;
+}
+
+/* banner image and text */
+
+#introduction {
+    position: relative;
+}
+
+#introduction h1 {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+
+#introduction p {
+    color: white;
+    font-size: 50px;
+    text-align: justify;
+}
+
+#introduction img {
+    width: 100%;
+    display: block;
+}
+
+#introduction .introduction-block {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    width: 500px;
+    text-align: justify;
+    margin-left: 200px;
+    background-color: #1e5d8a;
+}
+
+#introduction .introduction-block h1 {
+    font-size: 30px;
+}
+
+#introduction .introduction-block p {
+    font-size: 20px;
+}
+
+/* characteristics of 'synopsis' section */
+#synopsis {
+    color: white;
+    text-align: justify;
+}
+
+#synopsis p {
+    color: #1e5d8a;
+    text-align: justify;
+    font-size: 20px;
+    margin: 0;
+}
+
+#synopsis h1 {
+    color: #1e5d8a;
+    font-size: 30px;
+    text-align: center;
+}
+
+#synopsis .perfect-square {
+    width: 100%;
+    display: block;
+}
+
+#synopsis img {
+    width: 100%;
+    display: block;
+}
+
+/* characteristics of 'episodes' section */
+#episodes h1 {
+    color: #1e5d8a;
+    font-size: 30px;
+    text-align: center;
+}
+
+#episodes h3 {
+    color: #1e5d8a;
+    font-size: 20px;
+    text-align: center;
+}
+
+#episodes p {
+    color: #1e5d8a;
+    font-size: 20px;
+    text-align: center;
+}
+
+#episodes .episode-block {
+    border: 1px solid grey;
+}
+
+#episodes .episode-block .block-img-episode img {
+    width: 100%;
+}
+
+#episodes .episode-block .block-img-episode.perfect-square {
+    padding-bottom: 56.25%;
+}
+
+#episodes .button.orange-button {
+    display: flex;
+    justify-content: center;
+}
+
+.block-content-episode {
+    padding: 15px;
+}
+
+.block-content-episode h3 {
+    margin-top: 0;
+    font-size: 25px;
+}
+
+/*characteristic of 'characters' section */
+#characters h1 {
+    color: #1e5d8a;
+    font-size: 30px;
+    text-align: center;
+}
+
+#characters h4 {
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    color: #1e5d8a;
+    font-size: 30px;
+    width: 100%;
+}
+
+#characters img {
+    filter: grayscale(1);
+}
+
+#characters .perfect-square:hover img {
+    filter: grayscale(0);
+}
+
+#characters .perfect-square:hover h4 {
+    display: none;
+}
+
+/*characteristic of 'more information' section */
+#moreinformation {
+    padding-bottom: 50px;
+}
+
+#moreinformation h1 {
+    color: #1e5d8a;
+    font-size: 30px;
+    text-align: center;
+}
+
+#moreinformation p {
+    color: #1e5d8a;
+    font-size: 20px;
+}
+
+#moreinformation .button.orange-button {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+}
+
+/*characteristic of footer  */
+footer {
+    background-color: #fec93d;
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+footer .bar-footer {
+    background-color: #fec93d;
+    color: #1e5d8a;
+    width: 100%;
+    text-align: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer p {
+    color: #1e5d8a;
+    text-align: center;
+    font-size: 15px;
+}
+
+/*mobile version */
+
+@media (max-width: 767px) {
+    hola {
+    }
+
+    body {
+        font-size: 15px;
+    }
+
+    header {
+        height: 60px;
+    }
+
+    header .container nav {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        padding-left: 15px;
+        padding-right: 15px;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        transition: all 0.4s ease;
+        transform: translateX(100%);
+    }
+
+    header .container nav .open {
+        transform: translateX(0);
+    }
+
+    header .container .logo {
+        width: 100px;
+        left: 0;
+        line-height: 60px;
+    }
+
+    header .container {
+        display: flex;
+        width: 100%;
+        justify-content: left;
+        align-items: left;
+    }
+
+    .column-mobile-100 {
+        width: 100%;
+    }
+
+    .column-mobile-50 {
+        width: 100%;
+    }
+
+    header .container nav a {
+        font-size: 30px;
+        margin: 15px 0;
+    }
+
+    header .container .hamb {
+        display: block;
+        font-size: 40px;
+        color: red;
+    }
+
+    #introduction {
+        height: 100vh;
+    }
+
+    #introduction img {
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    #introduction .introduction-block {
+        width: 100%;
+        object-fit: cover;
+        object-position: left;
+        margin: 0;
+        left: 0%;
+    }
+
+    #introduction .introduction-block h1 {
+        font-size: 16px;
+    }
+
+    #introduction .introduction-block p {
+        font-size: 15px;
+        text-align: justify;
+    }
+
+    #synopsis .section {
+        padding: 0;
+    }
+
+    #synopsis h1 {
+        font-size: 16px;
+    }
+
+    #synopsis p {
+        font-size: 15px;
+    }
+
+    #characters .container-fluid .row .perfect-square {
+        width: 100%;
+    }
+
+    #characters h1 {
+        font-size: 16px;
+    }
+
+    #characters h4 {
+        font-size: 16px;
+    }
+
+    #characters img {
+        filter: grayscale(0);
+    }
+
+    #episodes h1 {
+        font-size: 16px;
+    }
+
+    #episodes h3 {
+        font-size: 16px;
+    }
+
+    #episodes p {
+        font-size: 15px;
+    }
+
+    #moreinformation h1 {
+        font-size: 16px;
+    }
+
+    #moreinformation p {
+        font-size: 15px;
+    }
+}
